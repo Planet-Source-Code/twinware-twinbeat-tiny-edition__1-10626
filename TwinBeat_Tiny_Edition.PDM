@@ -1,0 +1,315 @@
+[Root]
+Most Recent Package=Standardm‰ﬂiges Setup-Paket 2
+
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Programme\TwinWare\TwinBeat TE\Paket
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Files Found]
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Files Released]
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Missing Dependency Information]
+C:\WINDOWS.000\SYSTEM\XFXFORMS.OCX=
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Out-of-Date Dependency Information]
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Files Added]
+C:\Programme\TwinWare\TwinBeat TE\Logo.gif=
+C:\Programme\TwinWare\TwinBeat TE\info.htm=
+C:\Programme\TwinWare\TwinBeat TE\Screenshot.jpg=
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Files Removed]
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Files In Project]
+C:\Programme\TwinWare\TwinBeat TE\TwinBeat TE.exe=Yes
+C:\WINDOWS.000\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS.000\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS.000\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS.000\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS.000\SYSTEM\STDOLE2.TLB=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS.000\SYSTEM\VB6DE.DLL=Yes
+C:\WINDOWS.000\SYSTEM\XFXFORMS.OCX=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS.000\SYSTEM\VB6STKIT.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Programme\TwinWare\TwinBeat TE\Logo.gif=Yes
+C:\Programme\TwinWare\TwinBeat TE\info.htm=Yes
+C:\Programme\TwinWare\TwinBeat TE\Screenshot.jpg=Yes
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Install Locations]
+C:\Programme\TwinWare\TwinBeat TE\TwinBeat TE.exe=$(AppPath)
+C:\WINDOWS.000\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\VB6DE.DLL=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\XFXFORMS.OCX=$(WinSysPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS.000\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Programme\TwinWare\TwinBeat TE\Logo.gif=$(AppPath)
+C:\Programme\TwinWare\TwinBeat TE\info.htm=$(AppPath)
+C:\Programme\TwinWare\TwinBeat TE\Screenshot.jpg=$(AppPath)
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Configure Shared Files]
+Applicable=Yes
+C:\Programme\TwinWare\TwinBeat TE\TwinBeat TE.exe=Yes
+C:\Programme\TwinWare\TwinBeat TE\Logo.gif=Yes
+C:\Programme\TwinWare\TwinBeat TE\info.htm=Yes
+C:\Programme\TwinWare\TwinBeat TE\Screenshot.jpg=Yes
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Distribution]
+Type=single
+Size=
+Title=TwinBeat TE
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|IconGroups]
+Group0=TwinBeat TE
+PrivateGroup0=Falsch
+Parent0=$(Programs)
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|TwinBeat TE]
+Icon1="TwinBeat TE.exe"
+Title1=TwinBeat TE
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Package]
+PackageFolder=C:\Programme\TwinWare\TwinBeat TE\Paket
+ProjectFolder=C:\Programme\TwinWare\TwinBeat TE
+ServerSideCab=
+File1=C:\Programme\TwinWare\TwinBeat TE\Paket\setup.exe
+File2=C:\Programme\TwinWare\TwinBeat TE\Paket\Setup.Lst
+File3=C:\Programme\TwinWare\TwinBeat TE\Paket\TwinBeat TE.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|TwinBeatTe|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Programme\TwinWare\TwinBeat TE\Paket 
+
+[Package|TwinBeatTe|Configure DAO ISAMs]
+Applicable=No
+
+[Package|TwinBeatTe|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|TwinBeatTe|Files Found]
+
+[Package|TwinBeatTe|Files Released]
+
+[Package|TwinBeatTe|Missing Dependency Information]
+C:\WINDOWS.000\SYSTEM\XFXFORMS.OCX=
+
+[Package|TwinBeatTe|Out-of-Date Dependency Information]
+
+[Package|TwinBeatTe|Files Added]
+C:\Programme\TwinWare\TwinBeat TE\Logo.gif=
+C:\Programme\TwinWare\TwinBeat TE\info.htm=
+C:\Programme\TwinWare\TwinBeat TE\Screenshot.jpg=
+
+[Package|TwinBeatTe|Files Removed]
+c:\windows.000\system\msvbvm60.dll=
+c:\windows.000\system\oleaut32.dll=
+c:\windows.000\system\olepro32.dll=
+c:\windows.000\system\asycfilt.dll=
+c:\windows.000\system\stdole2.tlb=
+c:\programme\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+c:\windows.000\system\vb6de.dll=
+
+[Package|TwinBeatTe|Files In Project]
+C:\Programme\TwinWare\TwinBeat TE\TwinBeat TE.exe=Yes
+C:\WINDOWS.000\SYSTEM\MSVBVM60.DLL=No
+C:\WINDOWS.000\SYSTEM\OLEAUT32.DLL=No
+C:\WINDOWS.000\SYSTEM\OLEPRO32.DLL=No
+C:\WINDOWS.000\SYSTEM\ASYCFILT.DLL=No
+C:\WINDOWS.000\SYSTEM\STDOLE2.TLB=No
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\WINDOWS.000\SYSTEM\VB6DE.DLL=No
+C:\WINDOWS.000\SYSTEM\XFXFORMS.OCX=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS.000\SYSTEM\VB6STKIT.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Programme\TwinWare\TwinBeat TE\Logo.gif=Yes
+C:\Programme\TwinWare\TwinBeat TE\info.htm=Yes
+C:\Programme\TwinWare\TwinBeat TE\Screenshot.jpg=Yes
+
+[Package|TwinBeatTe|Configure Registry Files]
+Applicable=No
+
+[Package|TwinBeatTe|Configure Remote Servers]
+Applicable=No
+
+[Package|TwinBeatTe|Install Locations]
+C:\Programme\TwinWare\TwinBeat TE\TwinBeat TE.exe=$(AppPath)
+C:\WINDOWS.000\SYSTEM\XFXFORMS.OCX=$(WinSysPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS.000\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Programme\TwinWare\TwinBeat TE\Logo.gif=$(AppPath)
+C:\Programme\TwinWare\TwinBeat TE\info.htm=$(AppPath)
+C:\Programme\TwinWare\TwinBeat TE\Screenshot.jpg=$(AppPath)
+
+[Package|TwinBeatTe|Configure Shared Files]
+Applicable=Yes
+C:\Programme\TwinWare\TwinBeat TE\TwinBeat TE.exe=No
+C:\Programme\TwinWare\TwinBeat TE\Logo.gif=No
+C:\Programme\TwinWare\TwinBeat TE\info.htm=No
+C:\Programme\TwinWare\TwinBeat TE\Screenshot.jpg=No
+
+[Package|TwinBeatTe|Distribution]
+Type=single
+Size=
+Title=TwinBeat TE
+
+[Package|TwinBeatTe|IconGroups]
+Group0=TwinWare
+PrivateGroup0=Falsch
+Parent0=$(Programs)
+
+[Package|TwinBeatTe|TwinWare]
+Icon1="TwinBeat TE.exe"
+Title1=TwinBeat TE
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|TwinBeatTe|Package]
+PackageFolder=C:\Programme\TwinWare\TwinBeat TE\Paket 
+ProjectFolder=C:\Programme\TwinWare\TwinBeat TE
+ServerSideCab=
+File1=C:\Programme\TwinWare\TwinBeat TE\Paket \setup.exe
+File2=C:\Programme\TwinWare\TwinBeat TE\Paket \Setup.Lst
+File3=C:\Programme\TwinWare\TwinBeat TE\Paket \TwinBeat TE.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Programme\TwinWare\TwinBeat TE\Paket
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Files Found]
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Files Released]
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Missing Dependency Information]
+C:\WINDOWS.000\SYSTEM\XFXFORMS.OCX=
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Out-of-Date Dependency Information]
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Files Added]
+C:\Programme\TwinWare\TwinBeat TE\Logo.gif=
+C:\Programme\TwinWare\TwinBeat TE\info.htm=
+C:\Programme\TwinWare\TwinBeat TE\Screenshot.jpg=
+C:\Programme\TwinWare\TwinBeat TE\Icon.ico=
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Files Removed]
+c:\windows.000\system\msvbvm60.dll=
+c:\windows.000\system\oleaut32.dll=
+c:\windows.000\system\olepro32.dll=
+c:\windows.000\system\asycfilt.dll=
+c:\windows.000\system\stdole2.tlb=
+c:\programme\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+c:\windows.000\system\vb6de.dll=
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Files In Project]
+C:\Programme\TwinWare\TwinBeat TE\TwinBeat TE.exe=Yes
+C:\WINDOWS.000\SYSTEM\MSVBVM60.DLL=No
+C:\WINDOWS.000\SYSTEM\OLEAUT32.DLL=No
+C:\WINDOWS.000\SYSTEM\OLEPRO32.DLL=No
+C:\WINDOWS.000\SYSTEM\ASYCFILT.DLL=No
+C:\WINDOWS.000\SYSTEM\STDOLE2.TLB=No
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\WINDOWS.000\SYSTEM\VB6DE.DLL=No
+C:\WINDOWS.000\SYSTEM\XFXFORMS.OCX=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS.000\SYSTEM\VB6STKIT.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Programme\TwinWare\TwinBeat TE\Logo.gif=Yes
+C:\Programme\TwinWare\TwinBeat TE\info.htm=Yes
+C:\Programme\TwinWare\TwinBeat TE\Screenshot.jpg=Yes
+C:\Programme\TwinWare\TwinBeat TE\Icon.ico=Yes
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Install Locations]
+C:\Programme\TwinWare\TwinBeat TE\TwinBeat TE.exe=$(AppPath)
+C:\WINDOWS.000\SYSTEM\XFXFORMS.OCX=$(WinSysPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS.000\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Programme\TwinWare\TwinBeat TE\Logo.gif=$(AppPath)
+C:\Programme\TwinWare\TwinBeat TE\info.htm=$(AppPath)
+C:\Programme\TwinWare\TwinBeat TE\Screenshot.jpg=$(AppPath)
+C:\Programme\TwinWare\TwinBeat TE\Icon.ico=$(AppPath)
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Configure Shared Files]
+Applicable=Yes
+C:\Programme\TwinWare\TwinBeat TE\TwinBeat TE.exe=No
+C:\Programme\TwinWare\TwinBeat TE\Logo.gif=No
+C:\Programme\TwinWare\TwinBeat TE\info.htm=No
+C:\Programme\TwinWare\TwinBeat TE\Screenshot.jpg=No
+C:\Programme\TwinWare\TwinBeat TE\Icon.ico=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Distribution]
+Type=single
+Size=
+Title=TwinBeat Tiny Edition
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|IconGroups]
+Group0=TwinWare
+PrivateGroup0=Falsch
+Parent0=$(Programs)
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|TwinWare]
+Icon1="TwinBeat TE.exe"
+Title1=TwinBeat Tiny Edition
+StartIn1=$(AppPath)
+Key1=Icon4
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Package]
+PackageFolder=C:\Programme\TwinWare\TwinBeat TE\Paket
+ProjectFolder=C:\Programme\TwinWare\TwinBeat TE
+ServerSideCab=
+File1=C:\Programme\TwinWare\TwinBeat TE\Paket\setup.exe
+File2=C:\Programme\TwinWare\TwinBeat TE\Paket\Setup.Lst
+File3=C:\Programme\TwinWare\TwinBeat TE\Paket\TwinBeat TE.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
